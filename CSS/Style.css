@@ -1,0 +1,15 @@
+/* CSS Cascading style sheet 
+CSS =  is a Module 
+
+[Syntax for CSS]
+Selector, Properties, Values  */
+h3{
+    font-size: 56px;
+    color: rgb(23, 23, 24);
+    background-color: aquamarine;
+}
+
+/* Their are (three) 3 way, we can define CSS
+    1. Inline CSS - First preority
+    2. External CSS - second preority
+    3. Internal CSS  - Final */
