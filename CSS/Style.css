@@ -3,13 +3,92 @@ CSS =  is a Module
 
 [Syntax for CSS]
 Selector, Properties, Values  */
+
+    /* 1. Selector - It is used to select the HTML tag, class, or ID.
+            Normal selector - <h3> </h3>
+            Id slector - <h3 id="first_h3"> </h3> ID must be unique name in the HTML document.
+            Class selector - <h3 class="first_h3"> </h3>
+            Universal selector - * using a value of asterisk (*)
+            Group selector - h3, p, div, label, span.........
+
+    2. Properties - It is used to define the style of the selected element.
+        /* Their are (three) 3 way, we can define CSS, The specitfycity of the CSS is defined by the following order of priority:
+    1. Inline CSS - First preority
+    2. External CSS - second preority
+    3. Internal CSS  - Final 
+
+
+    3. Values - It is used to specify the value of the property. */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(228, 238, 140);
+}
 h3{
     font-size: 56px;
     color: rgb(23, 23, 24);
     background-color: aquamarine;
+    border: 2px solid rgb(23, 23, 24);
+    border-radius: 1px;
+    padding: 10px;
+    width: 30.5%;
+   /* margin: 10px auto; */
 }
-
-/* Their are (three) 3 way, we can define CSS
-    1. Inline CSS - First preority
-    2. External CSS - second preority
-    3. Internal CSS  - Final */
+td{
+    font-size: 20px;
+    color: rgb(23, 23, 24);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(226, 228, 217);
+    padding: 10px;
+    margin: 10px auto;
+}
+th{
+    font-size: 20px;
+    color: rgb(247, 247, 250);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(97, 85, 81);
+}
+#student_id{
+    font-size: 20px;
+    color: rgb(23, 23, 24);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(226, 228, 217);
+    padding: 10px;
+    margin: 10px auto;
+}
+#student_name2{
+    color: rgb(247, 247, 250);
+    border: 2px solid rgb(23, 23, 24);
+    
+}
+ol{
+    font-size: 20px;
+    color: rgb(23, 23, 24);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(226, 228, 217);
+    padding: 1px;
+    margin: 20px auto;
+    width: 10%;
+}
+ul{
+    font-size: 20px;
+    color: rgb(23, 23, 24);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(226, 228, 217);
+    padding: 1px;
+    margin: 20px auto;
+    width: 10%;
+}
+dl{
+    font-size: 20px;
+    color: rgb(23, 23, 24);
+    border: 2px solid rgb(23, 23, 24);
+    background-color: rgb(226, 228, 217);
+    padding: 1px;
+    margin: 20px auto;
+    width: 30%;
+}
+/* If you had 2 or more than 2 HTML Tag with the same name (h3),
+ then you can go by using the selectorID("<h3 id="first_h3">") 
+ and selectorClass("<h3 class="h3">") to define the CSS properties and values. */
