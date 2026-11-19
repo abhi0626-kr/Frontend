@@ -1,0 +1,22 @@
+/* 1. Content.
+2. Mergin.
+3. padding.
+4. Border.
+5. Outline Border 
+
+In center their is a paragraph called Content,
+Between the content and Border space is called padding,
+Outside of the Border is called Mergin*/
+
+/* When we have to move the whole thing(content) to right we can go for Mergin 
+When we have move the particular paragraph of the content to right we can go for padding*/
+    /* when we can to use the mergin to move some pixls in all four of the side,
+we can go for*/ h3{
+    margin: 10px, 80px, 50px, 30px;
+}
+h1{
+     margin-top : 10px;
+     margin-right : 10px;
+     margin-bottom : 10px;
+     margin-left : 10px;
+}
